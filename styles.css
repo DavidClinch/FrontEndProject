@@ -1,17 +1,17 @@
 body {
   margin: 0;
   background: #FFF8DC;
-  font-family: arial;
+  font-family: Century Gothic;
 }
 header {
 	background: blue;
 	color: white;
-	padding: 10px;
+	padding: 15px;
 }
 h1 {
   display: inline;
   margin: 0;
-  color: #555;
+  color: #fff;
 }
 
 p {
@@ -28,15 +28,22 @@ nav ul{
 }
 
 nav ul li{
-  color: black;
-  background-color: white;
+  color: blue;
   list-style-type: none;
   display: inline-block;
-  padding: 5px 15px;
 }
 
 nav ul li a {
-	color: black;
+	color: #fff;
+	text-decoration: none;
+	border: 1px solid #fff;
+	padding: 5px 20px;
+}
+
+nav ul li a:hover{
+  background-color: #fff;
+  color: black;
+  transition: 0.6s ease;
 }
 
 .row {
@@ -55,4 +62,5 @@ nav ul li a {
 
 footer {
   clear: both;
+  text-align: center;
 }
