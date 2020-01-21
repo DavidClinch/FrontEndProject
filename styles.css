@@ -43,13 +43,7 @@ nav ul li a {
 	border: 2px dashed black;
 	padding: 10px 25px;
 }
-/*P logo */
-.parkinglogo {
-	display: inline-block;
-	padding-right: 15px;
-	margin: none;
-	
-}
+
 
 /*hover change nav buttons */
 nav ul li a:hover{
